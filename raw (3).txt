@@ -2934,7 +2934,7 @@ local function performClick()
     getgenv().AutoClickShootSettings.LastClickTime = currentTime
 end
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/id202azh/nyann./refs/heads/main/menu_den_nhe_bo_tron.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/id202azh/nyann./refs/heads/main/nyann_os_black_white_rounded.lua"))()
 local Window = redzlib:MakeWindow({
     Title = "nyann os",
     SubTitle = "by real_@nyann",
