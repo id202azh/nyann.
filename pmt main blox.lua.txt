@@ -409,7 +409,7 @@ discordShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 discordShadow.BackgroundTransparency = 1
 discordShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 discordShadow.Size = UDim2.new(1, 47, 1, 47)
-discordShadow.Image = "rbxassetid://6015897843"
+discordShadow.Image = "rbxassetid://86224472741926"
 discordShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 discordShadow.ImageTransparency = 0.5
 discordShadow.ScaleType = Enum.ScaleType.Slice
@@ -2114,22 +2114,22 @@ _G.FastAttack = Config["Fast Attack"]
 _G.gay = Config["M1 Fruits"]
 _G.BringRange = Config["Bring Range"]
 local win = libtrieu.Window({
-    Title = "nyann os",
-    Description = "by real_@nyann",
-    User = "Trieu•_•",
-    IconUser = "rbxassetid://94678517792779",
+    Title = "TTD hub",
+    Description = "by real_@TTD",
+    User = "TTD siu dz",
+    IconUser = "rbxassetid://86224472741926",
     KeyCode = Enum.KeyCode.F4,
-    DisplayNameDiscord = "@Trieu",
-    DiscordStatus = "Hello, I'm Trieu",
-    DiscordDescription = "Hello , PMT hub (Beta) 🥱",
-    DiscordBanner = "rbxassetid://94678517792779",
+    DisplayNameDiscord = "TTD SEVER",
+    DiscordStatus = "nyann os",
+    DiscordDescription = "TTD (Beta) 🥱",
+    DiscordBanner = "rbxassetid://86224472741926",
     Config = Config,
     SaveConfig = SaveConfig
 })
-local TabFarm = win:AddTab({Title = "Farm", Icon = "rbxassetid://94678517792779"})
-local TabQuest = win:AddTab({Title = "Quest", Icon = "rbxassetid://94678517792779"})
-local TabInfo = win:AddTab({Title = "Info", Icon = "rbxassetid://94678517792779"})
-local TabSetting = win:AddTab({Title = "Setting", Icon = "rbxassetid://94678517792779"})
+local TabFarm = win:AddTab({Title = "Farm", Icon = "rbxassetid://86224472741926"})
+local TabQuest = win:AddTab({Title = "Quest", Icon = "rbxassetid://86224472741926"})
+local TabInfo = win:AddTab({Title = "Info", Icon = "rbxassetid://86224472741926"})
+local TabSetting = win:AddTab({Title = "Setting", Icon = "rbxassetid://86224472741926"})
 TabFarm:AddDropdown({Title = "Select Weapon", Options = {"Melee", "Sword", "Blox Fruit"}, Callback = function(v)
     _G.ChooseWP = v
     local w = getWeapon(v)
@@ -2190,3 +2190,4 @@ TabQuest:AddToggle({
 		SaveConfig()
 	end
 })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/Fix-Lag.lua.txt"))()
